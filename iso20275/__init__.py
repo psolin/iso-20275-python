@@ -119,8 +119,8 @@ def read_from_csv(filename, sep=','):
     return table
 
 
-original_codes = read_from_csv(os.path.join(os.path.dirname(__file__), 'ISO-20275 - 2017-11-30.csv'))
-codes = read_from_csv(os.path.join(os.path.dirname(__file__), 'Cleaned - ISO-20275 - 2017-11-30.csv'))
+original_codes = read_from_csv(os.path.join(os.path.dirname(__file__), 'Cleaned - 2019-11-06_elf-code-list-publication-version-1.1.1.csv'))
+codes = read_from_csv(os.path.join(os.path.dirname(__file__), 'Cleaned - 2019-11-06_elf-code-list-publication-version-1.1.1.csv'))
 
 
 class MetaA(type):
